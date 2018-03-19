@@ -5,5 +5,6 @@ This will be the [prototype](https://jrotoni.github.io/b3nc-rotoni-jeremy/mod00-
 Know more about me here! ---> [https://tinyurl.com/jeremy-rotoni-linkedin](https://tinyurl.com/jeremy-rotoni-linkedin)
 
 # Portfolio
-[Capstone 1](jrotoni.github.io/b3nc-rotoni-jeremy/csp1/)
+[Capstone 1](https://jrotoni.github.io/b3nc-rotoni-jeremy/csp1/)
+
 [Capstone 2](https://grainsmart.000webhostapp.com)
