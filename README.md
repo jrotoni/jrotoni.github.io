@@ -9,6 +9,8 @@ Know more about me here! ---> [https://tinyurl.com/jeremy-rotoni-linkedin](https
 
 [Capstone 2 - Grainsmart](https://grainsmart.000webhostapp.com)
 
+[Capstone 3 - Punto de Benta](https://puntodebenta.000webhostapp.com/)
+
 ## Other works (using CMS)
 [Eve & Belle](http://www.eveandbelle.com/)
 
