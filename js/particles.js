@@ -5,8 +5,8 @@ var particles = [];
 
 function setup() {
     if (windowWidth < 1100) {
-        canvas = createCanvas(1200, windowHeight);
-        maxParticles = 60;
+        canvas = createCanvas(windowWidth, windowHeight);
+        maxParticles = 20;
         frameRate(30);
     } else {
         canvas = createCanvas(windowWidth, windowHeight);
