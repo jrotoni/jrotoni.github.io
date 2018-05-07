@@ -703,8 +703,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .scrolldown {
   position: absolute; 
   display: block;
-	/* left: 50vw; */
-	right: 50vw;
+	/* left: 48%; */
+	right: 40px;
   bottom: 70px;
 }
 .chevron {
