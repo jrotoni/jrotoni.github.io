@@ -28,10 +28,14 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
+    <link href="css/aos.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <script type='text/javascript' src="js/p5.js"></script>
     <script type='text/javascript' src="js/particles.js"></script>
+    <script type='text/javascript' src="js/aos.js"></script>
+
+    
 
   </head>
 
@@ -75,12 +79,11 @@
       </div>
     </header> -->
 
-    <div id="mainCanvas" style="position: relative;">
+    <div id="mainCanvas" style="position: relative; min-height: 100vh; background-color: #0e0e14;">
       <div class="containerholder text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100vw; padding: 20px;">
-        <img class="img-fluid" src="img/jrotoni.png" alt="jeremy-rotoni" height="200" width="200">
+        <img class="img-fluid" src="img/jrotoni.png" alt="jeremy-rotoni" height="200" width="200" data-aos="zoom-in">
         <h1 style="color: white;">Hi, I'm <span class="coloryellow" style="font-weight: 700;">Jeremy!</span></h1>
         <h5 style="color: white;">Full-Stack Web <span class="coloryellow">Developer</span>  &bull; UI/UX <span class="coloryellow">Designer</span>  &bull; Digital Marketing <span class="coloryellow">Strategist</span></h5>
-        
         
       </div>
       <div class="scrolldown">
@@ -98,33 +101,39 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Skills</h2>
-            <h3 class="section-subheading text-muted">As a lifelong learner, I am committed to hone my skills.</h3>
+            <h3 class="section-subheading text-muted">As a lifelong learner, I am always committed to hone my skills.</h3>
           </div>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x" data-aos="zoom-in">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Web Development</h4>
-            <p class="text-muted">I create websites that would be valuable to the client. The websites I develop are mobile responsive and well optimized.</p>
+            <div data-aos="flip-up">
+              <h4 class="service-heading">Web Development</h4>
+              <p class="text-muted">I develop websites based on the indsutry standard. I strive to create websites that are visually appealing, mobile responsive and features user-friendly design with clear navigation.</p>
+            </div>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x" data-aos="zoom-in">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">UI/UX Design</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div data-aos="flip-up">
+              <h4 class="service-heading">UI/UX Design</h4>
+              <p class="text-muted">To make the website or application usable and understandable are my top priorities in doing UI/UX design. My designs are tailored-fit which derived from a systematic and analytical approach.</p>
+            </div>
           </div>
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x" data-aos="zoom-in">
               <i class="fa fa-circle fa-stack-2x text-primary"></i>
               <i class="fa fa-bullhorn fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="service-heading">Digital Marketing</h4>
-            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <div data-aos="flip-up">
+              <h4 class="service-heading">Digital Marketing</h4>
+              <p class="text-muted">My career in digital marketing started with designing marketing materials, on-page SEO, and lead generation. Currently, I involve myself in developing strategies in connecting the brand to target online consumers. </p>
+            </div>
           </div>
         </div>
       </div>
@@ -144,7 +153,9 @@
             <a class="portfolio-link" href="https://jrotoni.github.io/b3nc-rotoni-jeremy/csp1/" target="_blank">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
+                  <h4 class="coloryellow">iNurseSP</h4>
+                  <h6>HTML &bull; CSS &bull; Materialize &bull; jQuery</h6>
+                  <h6><small>Nov. 28, 2017</small></h6>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/inursesp.jpg" alt="">
@@ -158,7 +169,9 @@
             <a class="portfolio-link" href="https://grainsmart.000webhostapp.com/" target="_blank">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
+                  <h4 class="coloryellow">Grainsmart Cainta</h4>
+                  <h6>HTML &bull; CSS &bull; Bootstrap &bull; JavaScript &bull; jQuery &bull; PHP &bull; MySQL</h6>
+                  <h6><small>Mar. 2, 2018</small></h6>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/grainsmart.jpg" alt="">
@@ -172,7 +185,9 @@
             <a class="portfolio-link" href="https://puntodebenta.000webhostapp.com/" target="_blank">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
+                  <h4 class="coloryellow">Punto de Benta</h4>
+                  <h6>HTML &bull; CSS &bull; Bootstrap &bull; JavaScript &bull; jQuery &bull; Laravel</h6>
+                  <h6><small>Apr. 4, 2018</small></h6>
                 </div>
               </div>
               <img class="img-fluid" src="img/portfolio/puntodebenta.jpg" alt="">
@@ -182,48 +197,6 @@
               <p class="text-muted">Capstone Project #3</p>
             </div>
           </div>
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Lines</h4>
-              <p class="text-muted">Branding</p>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Southwest</h4>
-              <p class="text-muted">Website Design</p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-eye fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
-            </a>
-            <div class="portfolio-caption">
-              <h4>Window</h4>
-              <p class="text-muted">Photography</p>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>
@@ -242,9 +215,9 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/1.jpg" alt="UP Diliman">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
                     <h4>BA Art Studies</h4>
                     <h4 class="subheading">University of the Philippines</h4>
@@ -256,9 +229,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/2.jpg" alt="Eve and Belle">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
                     <h4>Online Marketing Manager</h4>
                     <h4 class="subheading">Eve and Belle</h4>
@@ -270,9 +243,9 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/3.jpg" alt="Questex">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
                     <h4>Lead Generation Specialist</h4>
                     <h4 class="subheading">Questex Asia Ltd</h4>
@@ -284,9 +257,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/4.jpg" alt="Tuitt">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
                     <h4>Web Developer Trainee</h4>
                     <h4 class="subheading">Tuitt Coding Bootcamp</h4>
@@ -299,11 +272,11 @@
               
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/5.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/5.jpg" alt="Blend Mode Creative">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
-                    <h4>Web Developer</h4>
+                    <h4>Web Developer &amp; Digital Marketing Strategist</h4>
                     <h4 class="subheading">Blend Mode Creative</h4>
                   </div>
                   <div class="timeline-body">
@@ -313,24 +286,24 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/6.jpg" alt="">
+                  <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/6.jpg" alt="UPOU">
                 </div>
-                <div class="timeline-panel">
+                <div class="timeline-panel" data-aos="flip-down">
                   <div class="timeline-heading">
                     <h4>Diploma in Computer Science</h4>
                     <h4 class="subheading">University of the Philippines</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">January 2017 - January 2019</p>
+                    <p class="text-muted">January 2019</p>
                   </div>
                 </div>
               </li>
 
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <h4>Download
-                    <br>here!
-                  </h4>
+                  <a href="img/Rotoni-Resume.png">
+                    <img data-aos="zoom-in" class="rounded-circle img-fluid" src="img/about/7.jpg" alt="Resume">
+                  </a>
                 </div>
               </li>
             </ul>
@@ -339,41 +312,64 @@
       </div>
     </section>
 
-    <!-- Clients -->
-    <section class="py-5">
+    <!-- Technologies -->
+    <section>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase"><span class="responsive-text">Technologies</span></h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+      </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/html.jpg" alt="html">
-            </a>
+        <div class="customer-logos slider">
+          <div class="slide">
+            <img src="img/logos/html.png" alt="html">
           </div>
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/css.jpg" alt="css">
-            </a>
+          <div class="slide">
+            <img src="img/logos/css.png" alt="css">
           </div>
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/javascript.jpg" alt="javascript">
-            </a>
+          <div class="slide">
+            <img src="img/logos/javascript.png" alt="javascript">
           </div>
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/php.jpg" alt="php">
-            </a>
+          <div class="slide">
+            <img src="img/logos/php.png" alt="php">
           </div>
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/mysql.jpg" alt="mysql">
-            </a>
+          <div class="slide">
+            <img src="img/logos/mysql.png" alt="mysql">
           </div>
-          <div class="col-md-2 col-sm-4">
-            <a href="#">
-              <img class="img-fluid d-block mx-auto" src="img/logos/laravel.jpg" alt="laravel">
-            </a>
+          <div class="slide">
+            <img src="img/logos/laravel.png" alt="laravel">
           </div>
-          
+          <div class="slide">
+            <img src="img/logos/jquery.png" alt="jquery">
+          </div>
+          <div class="slide">
+            <img src="img/logos/ajax.png" alt="ajax">
+          </div>
+          <div class="slide">
+            <img src="img/logos/bootstrap.png" alt="bootstrap">
+          </div>
+          <div class="slide">
+            <img src="img/logos/materialize.png" alt="materialize">
+          </div>
+          <div class="slide">
+            <img src="img/logos/git.png" alt="git">
+          </div>
+          <div class="slide">
+            <img src="img/logos/github.png" alt="github">
+          </div>
+          <div class="slide">
+            <img src="img/logos/photoshop.png" alt="photoshop">
+          </div>
+          <div class="slide">
+            <img src="img/logos/illustrator.png" alt="illustrator">
+          </div>
+          <div class="slide">
+            <img src="img/logos/xd.png" alt="xd">
+          </div>
+          <div class="slide">
+            <img src="img/logos/wordpress.png" alt="wordpress">
+          </div>
         </div>
       </div>
     </section>
@@ -390,26 +386,6 @@
         <div class="row">
           <div class="col-lg-12">
               <div class="row">
-                <!-- <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div> -->
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
@@ -455,11 +431,8 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="https://jrotoni.github.io/">jrotoni.github.io</a>
+                <a href="https://jrotoni.github.io/" class="colorblue">jrotoni.github.io</a>
               </li>
-              <!-- <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -472,10 +445,39 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/script.js"></script>
 
+    <script>
+      $(document).ready(function () {
+          AOS.init({
+            duration: 1200,
+          });
+
+          $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 4
+              }
+            }, {
+              breakpoint: 520,
+              settings: {
+                slidesToShow: 3
+              }
+            }]
+          });
+        });
+    </script>
   </body>
 
 </html>
